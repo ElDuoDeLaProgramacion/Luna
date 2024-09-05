@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Interfaz Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+        }
+        header {
+            background-color: #00b953;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; 
+            
+        }
+
+        .image-item {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            justify-content: flex-start; 
+            margin-bottom: 20px; 
+            border: 2px solid black
+        }
+
+        .image-item img {
+            max-width: 450px;
+            height: auto;
+            
+           border: 1px solid black  ;
+           padding-right: 30px;
+        }
+
+        .image-item p {
+            margin: 0;
+            max-width: 400px; 
+            
+            
+        }
+
+        footer {
+            background-color: #00b953;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El reflejo de mi vida en fotos</h1>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Galería de Imágenes</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="../Luna/Imagenes/Cafetero.png" alt="Imagen 1">
+                    <p>Fui al eje cafereto con mi familia y paramos a comer ne un mirador.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Luna/Imagenes/cumple.png" alt="Imagen 2">
+                    <p>En mi cumpleaños fuimos a comer a un restaurante italiano y estuvo muy rico y chevere.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Luna/Imagenes/chino.png" alt="Imagen 3">
+                    <p>Fui con mi mama a ibage y almorzamos en un restaurante de sushi y ahi me tome la foto.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Luna/Imagenes/disney.png" alt="Imagen 3">
+                    <p>Fuimos q disney y fue muy chevere.</p>
+                </div>
+                <div class="image-item">
+                    <img src="../Luna/Imagenes/donas.png" alt="Imagen 3">
+                    <p>Fuimos a comer donas y estaban deliciosas</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Esta es mi galeria</p>
+    </footer>
+</body>
+</html>
